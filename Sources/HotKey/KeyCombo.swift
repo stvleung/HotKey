@@ -1,6 +1,6 @@
 import AppKit
 
-public struct KeyCombo: Equatable {
+public struct KeyCombo: Equatable, Codable {
 
 	// MARK: - Properties
 
