@@ -12,6 +12,7 @@ Simple global shortcuts in macOS. HotKey wraps the Carbon APIs for dealing with 
 ## Fork Information
 Modifications:
 - Added `Codable` conformance to `KeyCombo`
+- Added named parameter to `KeyCombo`'s `modifiers` setter.
 
 ## Installation
 

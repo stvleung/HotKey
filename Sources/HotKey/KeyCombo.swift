@@ -22,7 +22,7 @@ public struct KeyCombo: Equatable, Codable {
 			return NSEvent.ModifierFlags(carbonFlags: carbonModifiers)
 		}
 
-		set {
+		set(modifiers) {
 			carbonModifiers = modifiers.carbonFlags
 		}
 	}
