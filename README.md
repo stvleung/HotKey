@@ -3,7 +3,6 @@
 [![Build Status](https://github.com/soffes/HotKey/workflows/Tests/badge.svg)](https://github.com/soffes/HotKey/actions)
 ![Swift Version](https://img.shields.io/badge/swift-5.0.1-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/HotKey.svg)](https://cocoapods.org/pods/HotKey)
 
 Simple global shortcuts in macOS. HotKey wraps the Carbon APIs for dealing with global hot keys to make it easy to use in Swift.
 
@@ -21,7 +20,7 @@ Modifications:
 For installation with [Carthage](https://github.com/carthage/carthage), simply add the following to your `Cartfile`:
 
 ``` ruby
-github "soffes/HotKey"
+github "mattDavo/HotKey"
 ```
 
 ### Swift Package Manager
@@ -29,17 +28,8 @@ github "soffes/HotKey"
 For installation with [Swift Package Manager](https://github.com/apple/swift-package-manager), simply add the following to your `Package.swift`:
 
 ``` swift
-.package(url: "https://github.com/soffes/HotKey", from: "0.1.2")
+.package(url: "https://github.com/mattDavo/HotKey", from: "0.1.2")
 ```
-
-### CocoaPods
-
-For installation with [CocoaPods](http://cocoapods.org), simply add the following to your `Podfile`:
-
-```ruby
-pod 'HotKey'
-```
-
 
 ## Usage
 
