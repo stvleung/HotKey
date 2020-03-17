@@ -1,6 +1,5 @@
 # HotKey
 
-[![Version](https://img.shields.io/github/release/soffes/HotKey.svg)](https://github.com/soffes/HotKey/releases)
 [![Build Status](https://github.com/soffes/HotKey/workflows/Tests/badge.svg)](https://github.com/soffes/HotKey/actions)
 ![Swift Version](https://img.shields.io/badge/swift-5.0.1-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -9,6 +8,10 @@
 Simple global shortcuts in macOS. HotKey wraps the Carbon APIs for dealing with global hot keys to make it easy to use in Swift.
 
 **HotKey, along with [Color](https://github.com/soffes/Color), were created for use in [Contrast](https://usecontrast.com), a macOS app for checking designs for accessible color combinations.**
+
+## Fork Information
+Modifications:
+- Added `Codable` conformance to `KeyCombo`
 
 ## Installation
 
